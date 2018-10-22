@@ -14,6 +14,7 @@ function ViewSets (props){
                 <h3>{value.songs}</h3>
              <button onClick={()=>props.delete(value.id)}>Delete Set</button>
              <button>Edit Set</button>
+             <br/>
             </div>)
         })}</h3>
        
