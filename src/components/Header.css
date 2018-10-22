@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+*{
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    background-color: black;
+    border-style: solid;
+    border-color: #b89130;
+   /* border-color: #3a3834; */
+    border-width: 0 0 2px 0;
+}
+ .logo {
+height: 10vh;
+margin: 8px 12px 0 18px;
+/* padding-top: 12px; */
+}
+

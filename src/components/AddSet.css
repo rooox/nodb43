@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+*{
+    box-sizing: border-box;
+}
+.addset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    padding: 1rem;
+    background: url(ocean2.jpg);
+    background-color: #363636;
+}
+
+.addset--container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+    background-color: #b89130;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 2px rgba(0,0,0,0.6);
+}
+ input {
+     height: 30px;
+     width: 27vw;
+     margin: 18px;
+     font-size: 16px;
+     font-family: 'Cinzel', serif, bold;
+ }
+  
+ textarea {
+    height: 500px;
+    width: 27vw;
+    margin: 18px;
+    font-size: 16px;
+    font-family: 'Cinzel', serif;
+ }
+ button {
+     height: 30px;
+     width: 70px;
+     border-radius: 3px;
+     text-align: center;
+     margin: 15px;
+     justify-content: center;
+ }
+ 
+.sets_nav {
+height: 250px;
+width: 250px;
+margin: 50px;
+font-size: 65px;
+color: black;
+font-family: 'Cinzel', serif;
+background-color: #b89130;
+text-align: center;
+padding: 30px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: 0 5px 10px 2px rgba(0,0,0,0.6);
+/* opacity: .5; */
+
+}
+
+/* .bg {
+   background-size: cover;
+   height: 88vh;
+   margin: 0;
+} */

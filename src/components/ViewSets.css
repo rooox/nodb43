@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+*{
+    box-sizing: border-box;
+}
+
+div {
+    font-family: 'Cinzel', serif, bold;
+}
+
+h1{
+    color: #b89130
+}
+
+.sets{
+    display: flex;
+    flex-direction: row;
+    /* width: 500px; */
+    justify-content: center;
+    /* margin-left: 300px; */
+    margin-bottom: 10px;
+}
+
+.set_container{
+    width: 90vw;
+    margin-bottom: 100px;
+}
